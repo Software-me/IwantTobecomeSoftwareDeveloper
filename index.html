@@ -1,0 +1,76 @@
+
+<!-- 
+Name: Software-me
+Date: 12 February 2022
+Assignment name: bioSite Project
+Purpose: Demonstrate a basic understanding of HTML with CSS elements through the creation of a complete website
+Sources: Duckett, J. (2014). Html & CSS : design and build websites. John Wiley And Sons.
+‌         W3Schools. (2019). HTML Tutorial. W3schools.com. https://www.w3schools.com/html/default.asp
+         W3Schools. (2019). CSS Tutorial.  W3schools.com. https://www.w3schools.com/css/
+‌-->
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>CSD 340 Web Development with HTML and CSS: bioSite</title>
+        <!--Link to CSS-->
+        <link href="site.css" type="text/css" rel="stylesheet"/>
+        <!--Link to google font package-->
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet"/> 
+    </head>
+    <!--Page content begin-->
+    <body>
+        <!--Site main header-->
+        <header>
+            <h1>BioSite: Spielbound Boardgame Cafe</h1>
+        </header>
+        <!--Navigation bar-->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="products.html">Products</a>
+            <a href="outreach.html">Outreach</a>
+        </nav>
+        <!--Main content-->
+        <div id = "container">
+            <div class = "content">
+                <h3>Products of Spielbound</h3>
+                <p>
+                    The main thing that Spielbound sells is access to it one of a kind library of games. This access obtained 
+                    by buying either a five-dollar day pass which gives access to the library for a full day or through monthly 
+                    or annual memberships. This library is the largest in North America and is entirely searchable online to
+                     find an exact game a customer may be looking for. In addition to access to their game library Spielbound 
+                     offers room reservations from a ten-person room to renting out the entire store. They have hosted 
+                     everything from cooperate events, to family gatherings, to wedding receptions.
+                </p>
+                <p>
+                    Spielbound also sells boardgames for use at home. While the selection of games to purchase is much 
+                    smaller than what is in their library there is still plenty to chose from. Spielbound can even
+                    specially order games for their customers that may not be available in their or other stores.
+                </p>
+                <p>
+                    Spielbound's atmosphere would not be complete however without the café part of the business. Spielbound 
+                    is a full-service coffee shop that servers locally roasted coffee and many different formats. They 
+                    also have a menu of specialty game themed drinks that are unique to their store. In addition to the 
+                    coffee, they sell beer, wine, cocktails, and a large variety of snacks. They do allow outside food and 
+                    frequently have food deliveries straight to the café.
+                </p>
+            </div>
+            <div class = "content">
+                <figure>
+                    <img src="images/product1.png" alt="" style="width:450px;height:300px;">
+                    <figcaption>Spielbound has a vast library of games to play</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/product2.png" alt="" style="width:450px;height:300px;">
+                    <figcaption>Drinks and snacks complement the boardgames at Spielbound</figcaption>
+                </figure>
+            </div>
+        </div>
+        <!--Footer Section-->
+        <footer>
+            <p>
+                Additional information at <a href="https://spielbound.org/" target="_blank">Spielbound.org</a> and <a href="https://spielbound.com/" target="_blank">Spielbound.com</a>
+            </p>
+        </footer>
+    </body>
+</html>
